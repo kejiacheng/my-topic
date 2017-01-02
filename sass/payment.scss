@@ -1,0 +1,110 @@
+$mic:"微软雅黑";
+body{
+	font-family:"宋体"
+}
+#header{
+	width:100%;
+	height:115px;
+	border-bottom:1px solid #dedede;
+	.wrapper{
+		width:980px;
+		margin:0 auto;
+		height:115px;
+		position: relative;
+		.logo{
+			height:115px;
+			line-height:115px;
+			width:250px;
+			font-size:0;	
+			a{
+				display: inline-block;
+				width:50px;
+				height:65px;
+				margin-right:30px;
+				background: url("../img/header-pic.png");
+				background-size: 50px 65px;
+				vertical-align: middle;
+			}
+			.text{
+				border-left:1px solid #333;
+				line-height:62px;
+				display: inline-block;
+				padding-left:25px;
+				font-size:26px;
+				vertical-align: middle;
+				color:#888;
+				font-weight: 400;
+				font-family: $mic;
+			}
+		}
+		.back_index{
+			font-size:14px;
+			position:absolute;
+			right:5px;
+			bottom:5px;
+			color:blue;
+		}
+	}
+}
+#content{
+	width:980px;
+	margin:20px auto 0;
+	min-height:500px;
+	.wrapper{
+		width:400px;
+		.content_text{
+			margin-bottom:12px;
+			font-weight: 600;
+			color:red;
+		}
+		.selected_goods{
+			width:100%;
+			table{
+				width:700px;
+				border:1px solid #aaa;
+				th,td{
+					text-align: center;
+					border:1px solid #aaa;
+					height:30px;
+				}
+				.goods_name{
+					width:250px;
+				}
+				.same_width{
+					width:150px;
+				}
+				.all_money{
+					text-align: right;
+					padding-right:40px;
+					span{
+						padding:0 5px;
+						color:#FE0048;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+		.payment_bt{
+			display:block;
+			width:85px;
+			height:35px;
+			background:#389cff;
+			text-align: center;
+			line-height: 35px;
+			color:#fff;
+			font-size:14px;
+			font-family: $mic;
+			border-radius: 3px;
+			margin-top:15px;
+			cursor:pointer;
+		}
+	}
+	
+}
+#footer{
+	height:40px;
+	p{
+		line-height:40px;
+		text-align: center;
+	}
+}
