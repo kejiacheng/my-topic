@@ -1,0 +1,108 @@
+@charset "UTF-8";
+body {
+  font-family: "宋体"; }
+
+#header {
+  width: 100%;
+  height: 115px;
+  border-bottom: 1px solid #dedede; }
+  #header .wrapper {
+    width: 980px;
+    margin: 0 auto;
+    height: 115px;
+    position: relative; }
+    #header .wrapper .logo {
+      height: 115px;
+      line-height: 115px;
+      width: 250px;
+      font-size: 0; }
+      #header .wrapper .logo a {
+        display: inline-block;
+        width: 50px;
+        height: 65px;
+        margin-right: 30px;
+        background: url("../img/header-pic.png");
+        background-size: 50px 65px;
+        vertical-align: middle; }
+      #header .wrapper .logo .text {
+        border-left: 1px solid #333;
+        line-height: 62px;
+        display: inline-block;
+        padding-left: 25px;
+        font-size: 26px;
+        vertical-align: middle;
+        color: #888;
+        font-weight: 400;
+        font-family: "微软雅黑"; }
+    #header .wrapper .back_index {
+      font-size: 14px;
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+      color: blue; }
+
+#content {
+  min-width: 500px;
+  min-height: 550px;
+  background: #f5f5f5;
+  position: relative; }
+  #content .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 550px;
+    background: url("../img/productBg.png");
+    background-size: cover;
+    background-position: center 0; }
+    #content .wrapper .buy_list {
+      padding: 0 30px; }
+      #content .wrapper .buy_list .word {
+        height: 84px;
+        background: url("../img/word.png") no-repeat; }
+      #content .wrapper .buy_list table {
+        width: 900px;
+        border: 1px solid #888; }
+        #content .wrapper .buy_list table th, #content .wrapper .buy_list table td {
+          text-align: center;
+          border: 1px solid #888;
+          height: 30px;
+          font-size: 14px;
+          font-family: "微软雅黑"; }
+        #content .wrapper .buy_list table .goods_id {
+          width: 180px; }
+        #content .wrapper .buy_list table .goods_name {
+          width: 360px; }
+        #content .wrapper .buy_list table .goods_price {
+          width: 180px; }
+        #content .wrapper .buy_list table .goods_time {
+          width: 180px; }
+      #content .wrapper .buy_list .page_box {
+        margin: 20px 0; }
+        #content .wrapper .buy_list .page_box .set_page {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background: #ddd;
+          border: 1px solid #333;
+          margin: 0 5px;
+          text-align: center;
+          line-height: 20px;
+          color: #555;
+          font-size: 14px;
+          cursor: pointer;
+          color: #444; }
+          #content .wrapper .buy_list .page_box .set_page:first-child, #content .wrapper .buy_list .page_box .set_page:last-child {
+            width: 40px; }
+        #content .wrapper .buy_list .page_box .prev_page, #content .wrapper .buy_list .page_box .next_page {
+          width: 60px; }
+        #content .wrapper .buy_list .page_box .now_page {
+          color: white;
+          background: #3E26D2;
+          border-color: #3E26D2; }
+        #content .wrapper .buy_list .page_box .disable {
+          opacity: 0.5; }
+
+#footer {
+  height: 40px; }
+  #footer p {
+    line-height: 40px;
+    text-align: center; }

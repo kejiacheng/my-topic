@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body {
+  font-family: "宋体"; }
+
+#header {
+  width: 100%;
+  height: 115px;
+  border-bottom: 1px solid #dedede; }
+  #header .wrapper {
+    width: 980px;
+    margin: 0 auto;
+    height: 115px;
+    position: relative; }
+    #header .wrapper .logo {
+      height: 115px;
+      line-height: 115px;
+      width: 250px;
+      font-size: 0; }
+      #header .wrapper .logo a {
+        display: inline-block;
+        width: 50px;
+        height: 65px;
+        margin-right: 30px;
+        background: url("../img/header-pic.png");
+        background-size: 50px 65px;
+        vertical-align: middle; }
+      #header .wrapper .logo .text {
+        border-left: 1px solid #333;
+        line-height: 62px;
+        display: inline-block;
+        padding-left: 25px;
+        font-size: 26px;
+        vertical-align: middle;
+        color: #888;
+        font-weight: 400;
+        font-family: "微软雅黑"; }
+    #header .wrapper .back_index {
+      font-size: 14px;
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+      color: blue; }
+
+#content {
+  min-width: 500px;
+  height: 550px;
+  background: url("../img/test1.jpg");
+  background-size: cover;
+  background-position: center 0;
+  position: relative; }
+  #content .login_box {
+    width: 350px;
+    height: 330px;
+    background: #fff;
+    opacity: 0.9;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: -10px 15px 3px 0 #444; }
+    #content .login_box .login_box_header {
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #dedede;
+      font-size: 0; }
+      #content .login_box .login_box_header .login_way {
+        display: inline-block;
+        font-size: 14px;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        line-height: 50px;
+        box-sizing: border-box;
+        font-weight: normal;
+        cursor: pointer;
+        font-weight: 600; }
+      #content .login_box .login_box_header .user_way {
+        border-right: 1px solid #dedede;
+        border-radius: 8px 0 0 0; }
+      #content .login_box .login_box_header .staff_way {
+        border-radius: 0 8px 0 0; }
+      #content .login_box .login_box_header .selected {
+        background: #bbb;
+        color: red;
+        font-weight: 600; }
+    #content .login_box .login_box_content .tips {
+      height: 40px;
+      padding-left: 15px;
+      line-height: 40px;
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 18px; }
+      #content .login_box .login_box_content .tips .fa-exclamation {
+        color: red; }
+      #content .login_box .login_box_content .tips .wrong {
+        color: red;
+        display: none; }
+    #content .login_box .login_box_content form .label {
+      display: inline-block;
+      width: 50px;
+      margin-right: 8px;
+      text-align: right;
+      margin-left: 20px; }
+    #content .login_box .login_box_content form input {
+      margin-bottom: 22px;
+      width: 205px;
+      height: 30px;
+      font-size: 13px;
+      padding-left: 8px; }
+    #content .login_box .login_box_content form .login_bt {
+      display: block;
+      width: 180px;
+      height: 45px;
+      background: #3f89ec;
+      text-align: center;
+      line-height: 45px;
+      color: #fff;
+      border-radius: 3px;
+      margin: 5px auto 20px;
+      font-family: "微软雅黑";
+      letter-spacing: 2px;
+      font-weight: 600;
+      cursor: pointer; }
+    #content .login_box .login_box_content .fg_pw_reg {
+      width: 250px;
+      font-size: 13px;
+      color: #3878FF;
+      margin: 0 auto;
+      text-align: right; }
+      #content .login_box .login_box_content .fg_pw_reg a {
+        cursor: pointer; }
+
+#footer {
+  height: 40px; }
+  #footer p {
+    line-height: 40px;
+    text-align: center; }
