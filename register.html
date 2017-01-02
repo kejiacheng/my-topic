@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/register.js"></script>
+</head>
+<body>
+    <div class="register-head">
+        <div class="register-logo">
+            <div class="logo-title">
+                饮料随搭
+            </div>
+            <div class="logo-title">
+                欢迎注册
+            </div>
+            <div class="have-account">
+                已有账号,返回<a href="index.html">首页</a>
+            </div>
+        </div>
+    </div>
+    <div class="register-box">
+        <div class="box-header">
+            <div class="new-user-head">
+                新用户注册
+
+            </div>
+            <div class="return-home">
+                <img src="img/home.png"/>
+                <a href="index.html"><span>返回首页</span></a>
+            </div>
+        </div>
+        <div class="new-tip">
+            <img src="img/new-tip.png"/>
+            <span>贴心提示：请勿设置过于简单的登录密码或支付密码，防止不法分子窃取您的账户信息</span>
+            <span class="catious">谨防诈骗！</span>
+        </div>
+        <div class="register-content">
+            <form>
+                <div class="input-box">
+                    <label>手机号码</label><input class="input-obj phone" type="text" placeholder="请输入您的手机号码"><i class="r-x r-x-phone"></i><br>
+                    <p class="tip tip-phone">手机号可用于登录、找回密码等服务</p>
+                </div>
+                <div class="input-box">
+                    <label>账号名</label><input class="input-obj username" type="text"><i class="r-x r-x-username"></i><br>
+                    <p class="tip tip-username">请输入2-8位账号名</p>
+                </div>
+                <div class="input-box">
+                    <label>登录密码</label><input class="input-obj password" type="password"><i class="r-x r-x-password"></i><br>
+                    <p class="tip tip-password">请输入6-10位登录密码</p>
+                </div>
+                <div class="input-box">
+                    <label>确认密码</label><input class="input-obj confirm-password" type="password"><i class="r-x r-x-cf-pw"></i><br>
+                    <p class="tip tip-cf-pw">请确认密码</p>
+                </div>
+                <div class="input-box">
+                    <label>获取验证码</label><input class="input-obj vertify" type="text" placeholder="请输入您的手机验证码"><i class="r-x r-x-vertify"></i><div class="get-vertify">获取验证码</div><br>
+                    <p class="tip tip-vertify">请输入验证码</p>
+                </div>
+                <a class="register-bt">立即注册</a>
+            </form>
+        </div>
+    </div>
+    <div class="footer">感谢您的支持！</div>
+</body>
+</html>

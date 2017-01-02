@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/reset.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/graph.css">
+<script src="js/isLogin.js"></script>
+</head>
+<body>
+    <div id="banner">
+		<div class="wrapper">
+			<i class="banner_text">后台管理中心</i>
+			<ul class="clearfix">
+				<a href="backstage.html"><li>12</li></a>
+				<a><li class="active">32</li></a>
+				<a><li>43</li></a>
+				<a><li>34</li></a>
+			</ul>
+			<a class="back_home" href="index.html">返回首页</a>
+			<span class="name"></span>		
+		</div>
+	</div>
+	<div id="content">
+		<div class="wrapper">
+			<div class="mode_choice">
+				<ul>
+					<li class="graph_index_li active"><p>图形首页</p></li>
+					<li class="bar_line_li"><p>柱状折线</p></li>
+				</ul>
+			</div>
+			<div class="item_box">
+				<div class="graph_index item_box_list">
+					<p class="header_text">注意事项</p>
+					<div class="tips">
+						<p>不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事</p>
+						<p>不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事</p>
+						<p>不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事</p>
+						<p>不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事</p>
+					</div>
+				</div>
+				<div class="bar_line item_box_list hidden">
+					<div class="condition_select">
+						<select class="chart_type">
+							<option>柱状图</option>
+							<option>折线图</option>
+						</select>
+						<div class="goods_wrapper">
+							<input class="goods" readonly>
+							<div class="select_goods">
+								<!-- <div class="item">蜜桃汁|1|蜂蜜|3|椰果|3|果葡糖浆|3</div>
+								<div class="item">蜜桃汁|1|椰果|3|果葡糖浆|3</div>
+								<div class="item">蜜桃汁|1|蜂蜜|3|椰果|3|果葡糖浆|3</div>
+								<div class="item">蜜桃汁|1</div>
+								<div class="item">蜜桃汁|1|蜂蜜|3|椰果|3|果葡糖浆|3</div>
+								<div class="item">蜜桃汁|1|蜂蜜|3</div>
+								<div class="item">蜜桃汁|1|蜂蜜|3|椰果|3</div> -->
+							</div>
+						</div>
+						<input class="start" onclick="laydate()">
+						<input class="end" onclick="laydate()">
+						<a class="filter_bt">筛选</a>
+					</div>
+					<canvas id="canvas" width="980" height="450"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		// var time = "2016-8-12";
+		// var x= (new Date("2012-12-25")).getTime()-(new Date("2012-11-21")).getTime(); 
+		// console.log(x/1000/60/60/24);
+		// console.log(Date.parse(2016-8-11))
+		// var y = Date.parse(2016-8-11);
+		// 	console.log(new Date(2016-08-12).getTime());
+
+		var start_time = document.getElementsByClassName("start_time")[0],
+			end_time = document.getElementsByClassName("end_time")[0];
+
+		
+	</script>
+	<script src="js/chart.js"></script>
+	<script src="js/graph.js"></script>
+	<script src="js/laydate/laydate.js"></script>
+</body>
+</html>

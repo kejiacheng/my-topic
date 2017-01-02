@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <div id="header">
+    	<div class="wrapper">
+    		<div class="logo">
+	    		<img class="logo_img" src="img/header-pic.png" alt="logo图片"/>
+	    		<span class="logo_text">饮料随搭</span>
+	    	</div>
+	    	<div class="header_left">
+		  			<a href="login.html" class="login_bt prev_login header_left_bt">登录</a>
+		  			<a href="register.html" class="register prev_login header_left_bt">注册</a>
+                    <div class="personal_wrapper">
+                        <a href="javascript:void(0)" class="username after_login header_left_bt"></a>
+                        <div class="personal_wrapper_box">
+                            <ul class="personal_wrapper_box_list">
+                                <!-- <li>1</li>
+                                <li>2</li>
+                                <li>3</li> -->
+                            </ul>
+                        </div>
+                    </div>
+		  			<div class="shopping_trolley_wrapper">
+                        <a href="personal_zone.php" class="shopping_trolley header_left_bt">购物车</a>
+                        <div class="shopping_trolley_box">
+                            <p class="shopping_trolley_box_title">历史购物清单</p>
+                            <div class="shopping_trolley_box_content">
+                                <div class="have_content">
+                                    <!-- <div class="buy_items">
+                                        <div class="order_number">订单编号：<span>201611020001</span></div>
+                                        <div class="buy_items_ingredients_accessories">
+                                            <p class="buy_items_ingredients">主料：<span class="buy_items_ingredients_content">芒果汁</span></p>
+                                            <p class="buy_items_accessories">辅料：<span class="buy_items_ingredients">蜂蜜*2+椰果*2+果葡糖浆*3</span></p>
+                                        </div>
+                                        <div class="price_data">
+                                            <p class="price">¥<span>8</span></p>
+                                            <p class="time">2016-11-2</p>
+                                        </div>
+                                    </div>     
+                                    <div class="buy_items">
+                                        <div class="order_number">订单编号：<span>201611020001</span></div>
+                                        <div class="buy_items_ingredients_accessories">
+                                            <p class="buy_items_ingredients">主料：<span class="buy_items_ingredients_content">芒果汁</span></p>
+                                            <p class="buy_items_accessories">辅料：<span class="buy_items_ingredients">蜂蜜*2+椰果*2+果葡糖浆*3</span></p>
+                                        </div>
+                                        <div class="price_data">
+                                            <p class="price">¥<span>8</span></p>
+                                            <p class="time">2016-11-2</p>
+                                        </div>
+                                    </div>      -->
+                                </div>
+                                <div class="not_content">
+                                    暂无购买记录
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+	    	</div>
+    	</div>
+    </div>
+    <div id="content">
+    	<div class="wrapper">
+    		<div class="content_left">
+    			<div class="ingredients">
+    				<p class="title">主料选择<span>(最多1种)</span></p>
+    				<div class="ingredients_all_items">
+    					<div class="green_tea ingredients_items">
+                            <img class="ingredients_img" src="img/green_tea.jpg">       
+                            <p class="items_name">绿茶</p>  
+                            <p class="items_price">价格：<span>2.5元</span></p>
+                            <p class="add_items"><i class="fa fa-plus"></i></p>      
+                        </div>
+    					<div class="red_tea ingredients_items">
+                            <img class="ingredients_img" src="img/red_tea.jpg">       
+                            <p class="items_name">红茶</p>  
+                            <p class="items_price">价格：<span>2.5元</span></p>
+                            <p class="add_items"><i class="fa fa-plus"></i></p>      
+                        </div>
+    					<div class="apple ingredients_items">
+                            <img class="ingredients_img" src="img/apple.jpg">       
+                            <p class="items_name">苹果汁</p>  
+                            <p class="items_price">价格：<span>3.5元</span></p>
+                            <p class="add_items"><i class="fa fa-plus"></i></p>      
+                        </div>
+    					<div class="lemon ingredients_items">
+                            <img class="ingredients_img" src="img/lemon.jpg">       
+                            <p class="items_name">柠檬汁</p>  
+                            <p class="items_price">价格：<span>3.5元</span></p>
+                            <p class="add_items"><i class="fa fa-plus"></i></p>      
+                        </div>
+    					<div class="peach ingredients_items">
+                            <img class="ingredients_img" src="img/peach.jpg">       
+                            <p class="items_name">蜜桃汁</p>  
+                            <p class="items_price">价格：<span>3.5元</span></p>
+                            <p class="add_items"><i class="fa fa-plus"></i></p>      
+                        </div>
+    					<div class="mango ingredients_items">
+                            <img class="ingredients_img" src="img/mango.jpg">       
+                            <p class="items_name">芒果汁</p>  
+                            <p class="items_price">价格：<span>4.0元</span></p>
+                            <p class="add_items"><i class="fa fa-plus"></i></p>      
+                        </div>
+    					<div class="orange ingredients_items">
+                            <img class="ingredients_img" src="img/orange.jpg">       
+                            <p class="items_name">鲜橙汁</p>  
+                            <p class="items_price">价格：<span>3.5元</span></p>
+                            <p class="add_items"><i class="fa fa-plus"></i></p>      
+                        </div>
+    				</div>
+    				
+    			</div>
+    			<div class="accessories">
+    				<p class="title">辅料选择<span>(任意选择)</span></p>
+                    <div class="accessories_all_items">
+                        <div class="honey accessories_items">
+                            <div class="accessories_items_left">
+                                <img class="accessories_img" src="img/honey.jpg"/>
+                                <p class="items_name">蜂蜜</p>
+                            </div>
+                            <div class="accessories_items_right">
+                                <div class="right_content">
+                                    <p class="items_price">价格：<span class="num">1.0</span><span>元/份</span></p>
+                                    <p class="items_num">数量：<span>0</span></p>
+                                    <div class="add_sub" onselectstart="return false;">
+                                        <i class="fa fa-plus add"></i>
+                                        <i class="fa fa-minus sub"></i>
+                                    </div>
+                                    <p class="totol_price">总计：<span>0.0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="coconut accessories_items">
+                            <div class="accessories_items_left">
+                                <img class="accessories_img" src="img/coconut.jpg"/>
+                                <p class="items_name">椰果</p>
+                            </div>
+                            <div class="accessories_items_right">
+                                <div class="right_content">
+                                    <p class="items_price">价格：<span class="num">0.8</span><span>元/份</span></p>
+                                    <p class="items_num">数量：<span>0</span></p>
+                                    <div class="add_sub" onselectstart="return false;">
+                                        <i class="fa fa-plus add"></i>
+                                        <i class="fa fa-minus sub"></i>
+                                    </div>
+                                    <p class="totol_price">总计：<span>0.0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="HFCS accessories_items">
+                            <div class="accessories_items_left">
+                                <img class="accessories_img" src="img/HFCS.jpg"/>
+                                <p class="items_name">果葡糖浆</p>
+                            </div>
+                            <div class="accessories_items_right">
+                                <div class="right_content">
+                                    <p class="items_price">价格：<span class="num">0.5</span><span>元/份</span></p>
+                                    <p class="items_num">数量：<span>0</span></p>
+                                    <div class="add_sub" onselectstart="return false;">
+                                        <i class="fa fa-plus add"></i>
+                                        <i class="fa fa-minus sub"></i>
+                                    </div>
+                                    <p class="totol_price">总计：<span>0.0</span></p>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+    			</div>
+    		</div>
+            <div class="content_right">
+                <div class="tips">
+                    <p class="tips_title">选购须知</p>
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-sun-o fa-spin"></i>各种配料随您喜好随意搭配,主料最多只可选择<span class="important_word">1</span>次，辅料类目数量<span class="important_word">任你选择</span>，每份大约为<span class="important_word">30ml</span>,每种类目最多可添加<span class="important_word">3份</span>。</li>
+                        <li><i class="fa-li fa fa-sun-o fa-spin"></i>配料进行<span class="important_word">消菌</span>冰冻贮藏，可储存<span class="important_word">X</span>个月，请放心使用。</li>
+                        <li><i class="fa-li fa fa-sun-o fa-spin"></i>选购完，请点击选购完成按钮并确认需支付价格，进入支付页面</li>
+                        <li><i class="fa-li fa fa-sun-o fa-spin"></i>支付完毕，请从<span class="important_word">右侧出口处</span>拿取产品，欢迎下次光临。</li>
+                    </ul>
+                </div>
+                <div class="ranking_list">
+                    <p class="ranking_list_title">月售排行</p>
+                    <ul>
+                            <li><i class="top_3">1</i><span title="苹果汁+红茶+牛奶+果葡糖浆">苹果汁+红茶+牛奶+果葡糖浆</span><strong>23011</strong></li>
+                            <li><i class="top_3">2</i><span title="芒果汁+奶油+椰果+蜂蜜">芒果汁+奶油+椰果+蜂蜜</span><strong>19637</strong></li>
+                            <li><i class="top_3">3</i><span title="椰果+蜜桃汁+牛奶">椰果+蜜桃汁+牛奶</span><strong>17666</strong></li>
+                            <li><i class="not_top">4</i><span title="柠檬汁+蜜桃汁+果葡糖浆+椰果">柠檬汁+蜜桃汁+果葡糖浆+椰果</span><strong>17213</strong></li>
+                            <li><i class="not_top">5</i><span title="鲜橙汁+椰果+牛奶+苹果汁">鲜橙汁+椰果+牛奶+苹果汁</span><strong>16871</strong></li>
+                            <li><i class="not_top">6</i><span title="绿茶+蜂蜜">绿茶+蜂蜜</span><strong>14239</strong></li>
+                            <li><i class="not_top">7</i><span title="绿茶+椰果+果葡糖浆">绿茶+椰果+果葡糖浆</span><strong>6584</strong></li>
+                            <li><i class="not_top">8</i><span title="苹果汁+蜜桃汁+鲜橙汁+芒果汁">苹果汁+蜜桃汁+鲜橙汁+芒果汁</span><strong>4568</strong></li>
+                            <li><i class="not_top">9</i><span title="柠檬汁+奶油+椰果">柠檬汁+奶油+椰果</span><strong>3654</strong></li>
+                            <li><i class="not_top">10</i><span title="苹果汁+奶油+椰果">苹果汁+奶油+椰果</span><strong>2601</strong></li>
+                        </ul>
+                </div>
+            </div>
+    	</div>
+    </div>
+    <div class="complete_bt">
+        <div class="complete_bt_text">选购完成</div>
+        <div class="complete_box">
+            <div class="header">
+                <div class="header_text">
+                    <span>|</span>
+                    购物清单
+                </div>
+                <div class="clear_goods">
+                    <i class="fa fa-trash"></i>
+                    <span>清空物品</span>
+                </div>
+            </div>
+            <div class="content">
+                <div class="tips">
+                    <i class="fa fa-exclamation" style="color:red"></i>
+                        以下是您的购物清单
+                </div>
+                <div class="have_goods">
+                    <div class="all_items">
+                        <!-- <div class="selected_items">
+                            <span class="selected_items_name">
+                                绿茶
+                            </span>
+                            <div class="selected_items_right">
+                                <span class="selected_items_price">1.0</span>
+                                <div class="num_box">
+                                    <img class="minus_num" src="img/minus.png"/>
+                                    <span class="selected_items_num">2</span>
+                                    <img class="add_num" src="img/add.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selected_items">
+                            <span class="selected_items_name">
+                                绿茶
+                            </span>
+                            <div class="selected_items_right">
+                                <span class="selected_items_price">1.0</span>
+                                <div class="num_box">
+                                    <img src="img/minus.png"/>
+                                    <span class="selected_items_num">2</span>
+                                    <img src="img/add.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selected_items">
+                            <span class="selected_items_name">
+                                绿茶
+                            </span>
+                            <div class="selected_items_right">
+                                <span class="selected_items_price">1.0</span>
+                                <div class="num_box">
+                                    <img src="img/minus.png"/>
+                                    <span class="selected_items_num">2</span>
+                                    <img src="img/add.png"/>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="selected_items_totol_price">
+                        <span class="confirm_bt" onselectstart="return false">确认支付</span>
+                        总计：
+                        <span class="price_num">1.0</span>
+                    </div>
+                </div>
+                <div class="not_have">
+                    您尚未选择主料！
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        浙ICP备16039089号
+    </div>
+    <div class="shade"></div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
