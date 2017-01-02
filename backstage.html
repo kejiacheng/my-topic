@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/reset.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/backstage.css">
+<script src="js/isLogin.js"></script>
+</head>
+<body>
+	<div id="banner">
+		<div class="wrapper">
+			<i class="banner_text">后台管理中心</i>
+			<ul class="clearfix">
+				<a><li class="active">12</li></a>
+				<a href="graph.html"><li>32</li></a>
+				<a><li>43</li></a>
+				<a><li>34</li></a>
+			</ul>
+			<a class="back_home" href="index.html">返回首页</a>
+			<span class="name"></span>		
+		</div>
+	</div>
+	<div id="content">
+		<div class="wrapper">
+			<div class="mode_choice">
+				<ul>
+					<li class="backstage_index_li active"><p>后台首页</p></li>
+					<li class="goods_ranking_li"><p>销量排行</p></li>
+					<li class="goods_sale_li"><p>销售记录</p></li>
+					<li class="goods_rel_li"><p>货物余量</p></li>	
+				</ul>
+			</div>
+			<div class="item_box">
+				<div class="backstage_index item_box_list">
+					<p class="header_text">注意事项</p>
+					<div class="tips">
+						<p>不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事</p>
+						<p>不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事</p>
+						<p>不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事</p>
+						<p>不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事不要搞事</p>
+					</div>
+				</div>
+				<div class="goods_ranking item_box_list hidden">
+					<p class="header_text">销量排行</p>
+					<div class="box">
+						<table>
+							<!-- <tr>
+								<th class="ranking">销量排名</th>
+								<th class="name">货物名称</th>
+								<th class="num">销量数目</th>
+							</tr> -->
+						</table>
+						<select class="select_time">
+							<option value="90">最近三个月</option>
+							<option value="30" selected>最近一个月</option>
+							<option value="10">最近十天</option>
+							<option value="5">最近五天</option>
+						</select>
+					</div>
+				</div>
+				<div class="goods_sale item_box_list hidden">
+					<p class="header_text">销售记录</p>
+					<div class="box">
+						<table>
+							<!-- <tr>
+								<th class="name">销售物品</th>
+								<th class="price">销售价格</th>
+								<th class="people">购买者</th>
+								<th class="time">销售时间</th>
+							</tr> -->
+						</table>
+						<select class="select_time">
+							<option value="90">最近三个月</option>
+							<option value="30">最近一个月</option>
+							<option value="10">最近十天</option>
+							<option value="5" selected>最近五天</option>
+						</select>
+						<div class="page_box" onselectstart="return false;">
+							<!-- <a class="fitst_page set_page">首页</a>
+							<a class="prev_page set_page">上一页</a>
+							<a class="num_page set_page">1</a>
+							<a class="num_page set_page">2</a>
+							<a class="num_page set_page">3</a>
+							<a class="num_page set_page">4</a>
+							<a class="next_page set_page">下一页</a>
+							<a class="last_page set_page">尾页</a> -->
+						</div>
+					</div>
+				</div>
+				<div class="goods_rel item_box_list hidden">
+					<p class="header_text">货物余量</p>
+					<div class="box">
+						<table>
+							<!-- <tr>
+								<th class="ranking">销量排名</th>
+								<th class="name">货物名称</th>
+								<th class="num">销量数目</th>
+							</tr> -->
+						</table>
+					</div>
+					<div class="update_num">
+						<input type="text" class="name" placeholder="货物名称">
+						<input type="text" class="num" placeholder="货物数量">
+						<a class="update_bt">更新</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/backstage.js"></script>
+</body>
+</html>
