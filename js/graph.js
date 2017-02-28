@@ -298,6 +298,15 @@ function ajax(start_time,end_time){
 						arr2.push(arr1);
 					}
 				}
+				for(var i=0;i<arr2.length;i++){
+					for(var j=0;j<arr2.length;j++){
+						if(arr2[i][0]<arr2[j][0]){
+							var temp = arr2[i];
+							arr2[i] = arr2[j];
+							arr2[j] = temp; 
+						}
+					}
+				}
 				return arr2;
 			}
 		}
