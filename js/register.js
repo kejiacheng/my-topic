@@ -373,7 +373,7 @@ window.onload =function(){
     register_bt.onclick = function(){
 
         // if(pass_phone == 1 && pass_username == 1 && pass_password == 1 && pass_cf_pw == 1 && pass_vertify == 1 && isclick == 1){
-        if(pass_phone == 1 && pass_username == 1 && pass_password == 1 && pass_cf_pw == 1 && isclick == 1){
+        if(pass_phone == 1 && pass_username == 1 && pass_password == 1 && pass_cf_pw == 1 && isclick == 1 && pass_vertify == 1){
             //使注册按钮只能点击一次
             isclick = 0;
             var xhr = createXMLHttpRequest(),
